@@ -229,6 +229,19 @@ left: 15%;
     color: var(--primary);
   }
 
+  #gallery,
+  .textvideo,
+  #sherlok {
+    padding-top: 1.8rem;
+  }
+
+  .judul1,
+  .judul2,
+  .judul3,
+  .judulT {
+    padding-top: 5rem;
+  }
+
   /* card section */
   .card {
     background-color: var(--pink);
@@ -476,17 +489,21 @@ left: 15%;
     margin-top: 0.5rem;
   }
 
-  .gallery .image-container {
-    padding-top: 0;
+
+      .containerm .image-container{
+    columns:5 250px;
+    gap:15px;
+    justify-content: center;
+    padding-top: 1px;
   }
 
 
   #masonry {
-    padding-top: 5px;
-    padding-bottom: 5rem;
+    padding-top: 1.8rem;
+    padding-bottom: 20px;
   }
   .containerm{
-    margin:2rem auto;
+    margin:1rem auto;
   }
 
   .carousel-item::after {
@@ -509,6 +526,16 @@ left: 15%;
   .judulT h1 {
     font-size: 1.8rem;
   }
+
+  .judul1,
+  .judul2,
+  .judul3,
+  .judulT {
+    padding: 3px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 
   #lokasi p{
     font-size: 17px;

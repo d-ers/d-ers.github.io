@@ -293,7 +293,7 @@ left: 15%;
     border: var(--primary);
   }
   .card-link:hover:active {
-    background-color: rgb(219, 154, 165);
+    background-color: var(--pink);
     border: var(--primary);
   }
 

@@ -230,17 +230,23 @@ left: 15%;
   }
 
   #gallery,
-  .textvideo,
-  #sherlok {
+  .textvideo {
     padding-top: 1.8rem;
   }
 
+ #sherlok {
+   padding-top: 2rem;
+ }
+
   .judul1,
   .judul2,
-  .judul3,
-  .judulT {
+  .judul3 {
     padding-top: 5rem;
   }
+
+.judulT {
+  padding-top: 7rem;
+}
 
   /* card section */
   .card {
